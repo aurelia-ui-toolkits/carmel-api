@@ -1,5 +1,6 @@
 {
-  "MailSettings": {
-    "ToAddress": "shawn@wildermuth.com"
-  }
+  "Data": {
+    "CatalogContextConnection": "Server=(localdb)\\MSSQLLocalDb;Database=CarmelDb;Trusted_Connection=true;MultipleActiveResultSets=true;"
+  } 
+ 
 }
