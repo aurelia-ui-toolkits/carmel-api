@@ -8,18 +8,18 @@ namespace Carmel.Controllers.Web
     public class AppController : Controller
     {
         private IConfigurationRoot _config;
-        private CatalogContext _context;
+        private ICatalogRepository _repository;
 
-        public AppController(IConfigurationRoot config, CatalogContext context)
+        public AppController(IConfigurationRoot config, ICatalogRepository repository)
         {
             _config = config;
-            _context = context;
+            _repository = repository;
         }
 
         public IActionResult Index()
         {
-            var components = _context.Components.OrderBy(c => c.Name).ToList();
-            return View();
+            var components = _repository.GetAllComponents();
+            return View(components);
         }
 
         public IActionResult Generator()
