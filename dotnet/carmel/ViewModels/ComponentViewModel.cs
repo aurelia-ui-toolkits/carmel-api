@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Carmel.ViewModels
@@ -11,5 +12,6 @@ namespace Carmel.ViewModels
 
         public DateTime Created { get; set; } = DateTime.UtcNow;
 
+        public IEnumerable<SampleViewModel> Samples { get; set; }
     }
 }

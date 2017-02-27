@@ -21,11 +21,12 @@ namespace Carmel.Models
         public void AddComponent(Component component)
         {
             _context.Add(component);
+            _logger.LogInformation("Component " + component.Name + " added to the database");
         }
 
         public void AddSample(string componentName, string creatorName, Sample newSample)
         {
-            var component = GetComponentByName(componentName, creatorName);
+            var component = GetComponentByName(componentName);
 
             if (component != null)
             {
@@ -33,7 +34,9 @@ namespace Carmel.Models
                 //
                 component.Samples.Add(newSample);
 
-                _context.Samples.Add(newSample);
+                //_context.Samples.Add(newSample);  // This does not seem needed any more with EF core 1.1.0
+
+                _logger.LogInformation("New sample added to the component " + componentName);
             }
         }
 
@@ -46,22 +49,19 @@ namespace Carmel.Models
 
         public IEnumerable<Component> GetAllComponentsWithSamples()
         {
+            _logger.LogInformation("Getting all Components with Samples from database");
+
             return _context.Components
                 .Include(c => c.Samples)
                 .OrderBy(c => c.Name)
                 .ToList();
         }
 
-        public Component GetComponentByName(string componentName, string creatorName)
-        {
-            return _context.Components
-                .Include(s => s.Samples)
-                .Where(s => s.Name == componentName && s.Name == creatorName)
-                .FirstOrDefault();
-        }
 
-        public object GetComponentByName(string name)
+        public Component GetComponentByName(string name)
         {
+            _logger.LogInformation("Getting Component " + name +  " from database");
+
             return _context.Components
                 .Include(s => s.Samples)
                 .Where(s => s.Name == name)
@@ -76,6 +76,5 @@ namespace Carmel.Models
             //
             return (await _context.SaveChangesAsync()) > 0;
         }
-
     }
 }

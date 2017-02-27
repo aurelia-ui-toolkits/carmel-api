@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace Carmel.Controllers.Api
@@ -30,13 +31,18 @@ namespace Carmel.Controllers.Api
         {
             try
             {
-                var component = _repository.GetComponentByName(componentName, creatorName);
+                var component = _repository.GetComponentByName(componentName);
+
+                if (component == null)
+                {
+                    return Json(null);
+                }
 
                 return Ok(Mapper.Map<IEnumerable<SampleViewModel>>(component.Samples.OrderBy(s => s.Order).ToList()));
             }
             catch (Exception ex)
             {
-                _logger.LogError("Failed to get samples: {0}", ex);
+                _logger.LogError("Failed to get samples for component {componentName}", ex);
             }
 
             return BadRequest("Failed to get samples");
@@ -65,8 +71,12 @@ namespace Carmel.Controllers.Api
             catch (Exception ex)
             {
                 _logger.LogError("Failed to save new Sample: {0}", ex);
+                return BadRequest("Failed to save new Sample");
             }
-            return BadRequest("Failed to save new Sample");
+
+            // Fall through from the validation check 
+            Response.StatusCode = (int)HttpStatusCode.BadRequest;
+            return Json("Validation failed on new Sample");
         }
     }
 }

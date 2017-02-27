@@ -8,8 +8,6 @@ namespace Carmel.Models
         IEnumerable<Component> GetAllComponents();
         IEnumerable<Component> GetAllComponentsWithSamples();
 
-        Component GetComponentByName(string componentName, string creatorName);
-
         void AddComponent(Component component);
         void AddSample(string componentName, string creatorName, Sample newSample);
 
