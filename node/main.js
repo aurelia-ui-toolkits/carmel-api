@@ -40,7 +40,7 @@ GenerateFunctionEnd();
 // -----------------------------------------------------------------------
 
 function GenerateFunctionStart() {
-  console.log('        public static void CreateSeedData(CatalogContext context)');
+  console.log('        public void CreateSeedData()');
   console.log('        {');
   console.log('            if (!context.Components.Any())');
   console.log('            {');
@@ -62,7 +62,7 @@ function GenerateSampleHeader(title, componentName) {
 
 
 function GenerateSampleListSection(sampleName, gist) {
-  console.log('                        new Sample() { Name = "' + sampleName + '", gists = new List<Gist>() { new Gist { Url = "' + gist + '"} }, sampleTags = new List<SampleTag>() { new SampleTag { sTag = "' + sampleName + '" } } },');
+  console.log('                        new Sample() { Name = "' + sampleName + '", gist = "' + gist + '" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "' + sampleName + '" } } },');
 }
 
 function GenerateSampleFooter(sampleName) {

@@ -44,17 +44,19 @@ namespace Carmel.Models
         {
             _logger.LogInformation("Getting all Components from database");
 
-            return _context.Components.ToList();
+            var result =  _context.Components.ToList();
+            return result;
         }
 
         public IEnumerable<Component> GetAllComponentsWithSamples()
         {
             _logger.LogInformation("Getting all Components with Samples from database");
 
-            return _context.Components
+            var result = _context.Components         
                 .Include(c => c.Samples)
-                .OrderBy(c => c.Name)
                 .ToList();
+
+            return result;
         }
 
 

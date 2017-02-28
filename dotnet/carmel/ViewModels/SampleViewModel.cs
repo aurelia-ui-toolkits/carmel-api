@@ -14,7 +14,7 @@ namespace Carmel.ViewModels
         public string Name { get; set; }
 
         public DateTime Created { get; set; } = DateTime.UtcNow;
-    
+        public string gist { get; set; }
         public List<SampleTag> sampleTags { get; set; }
     }
 }

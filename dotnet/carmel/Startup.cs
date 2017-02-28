@@ -75,7 +75,9 @@ namespace Carmel
                 );
             });
 
-            seeder.EnsureSeedData();
+            //
+            // This gets called only at server startup and only of the database does not exist
+            seeder.CreateSeedData();
         }
     }
 }
