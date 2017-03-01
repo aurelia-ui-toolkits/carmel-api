@@ -26,7 +26,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "autocomplete" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "0ddb2e1d4ff26b988382c9150d4fc475" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -51,7 +51,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "barcode" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "1174a9720369bfc0204a284bfd0a74da" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -68,7 +68,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "button" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "d946474293a740bfb5e70a1cca701403" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -88,7 +88,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "buttongroup" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "98fc25811319a1ba6ba11e3cc04e1771" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -104,7 +104,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "calendar" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "b9634cd655ff5521b6637a2908027f67" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -124,7 +124,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "areacharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "dfb0b040f119811487e936047282369e" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -150,7 +150,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "barcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "8a044bd800cb0d778294b085072c0904" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -183,7 +183,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "boxplotcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "fe87a15eeb28e2a897e47d8b3d148ded" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -201,7 +201,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "bubblecharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "eb5c413d66d06517c79b046c8bed0230" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -220,7 +220,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "bulletcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "fc0b95893b3e58ecb024724b98336272" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -238,7 +238,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "donutcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "6539bb554f5d4bd29c8ec8d8f457b9d4" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -256,7 +256,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "dialog" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "58d4f7efe5f553d9ce210c8c11ad5c86" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -275,7 +275,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "funnelcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "4f64b4d5396df91f5d8b6c209357c868" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -294,7 +294,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "linecharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "a6458eaf7ddc8fa196f6237e5d64a7b6" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -320,7 +320,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "piecharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "e23348dda7d4972798d9831aeb0e6800" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -339,7 +339,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "polarcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "binding-to-local-data", gist = "10ee70a457a0150fa63ad1719670ef77" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "binding-to-local-data" } } },
@@ -360,7 +360,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "radarcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "radar-line", gist = "8fc2711dc42bc80153108510ebe75b64" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "radar-line" } } },
@@ -381,7 +381,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "rangecharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "1c5930570481f2a3ce8ba839bbee7292" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -399,7 +399,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "scattercharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "135c28200c866da4b6dd429d699493b6" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -424,7 +424,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "sparkline" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "a09da4f3cc5a41c5f1ac14e9734f7ca2" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -442,7 +442,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "stock" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "2fa99251839134c13b00e30e9a92028a" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -461,7 +461,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "treemap" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "fa25d186446e61db7eef364a9e2284d7" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -478,7 +478,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "waterfallcharts" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "b776d58c732e2ae0023446a8fd9d87ff" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -497,7 +497,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "colorpicker" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "a346680615fca14ec68b94b0c3a47e01" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -516,7 +516,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "combobox" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "3d3d426dd4b7e6b2ce802874203e9b3b" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -539,7 +539,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "datepicker" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-usage", gist = "10ba464aa1fa03e85929f38c2d453976" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-usage" } } },
@@ -559,7 +559,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "datetimepicker" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-usage", gist = "516ba5f537c7bc127745b837e5436fe2" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-usage" } } },
@@ -580,7 +580,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "filtermenu" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "c85a983f00cb93abc7ee78423e729cd5" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -596,7 +596,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "diagram" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "bc01152ddc63bf3bdbcff6aaa341328f" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -618,7 +618,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "draganddrop" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "77c1b896c487f13ce2efa2081ba413e3" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -637,7 +637,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "dropdownlist" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "4fdf47666ebe68f91c4450147ea27db4" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -662,7 +662,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "editor" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "79510f53f025ecd6994d783b0c4d8ad2" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -686,7 +686,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "gantt" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "f7eaf5528c06fdbb5ebe6cbf4d6c21e5" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -708,7 +708,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "generic" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "use-widget-on-initialization", gist = "c2ffde936c8caee5c35b3c08a596b410" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "use-widget-on-initialization" } } },
@@ -727,7 +727,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "grid" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "b6a4f607d9f42a0e792e20779fe34213" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -775,7 +775,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "lineargauge" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "2b02abaea96bff7889c1e1cad0c7aa2b" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -794,7 +794,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "listview" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "c76e763d64c2d3244e222d32f0de062f" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -814,7 +814,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "map" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "1435787ccfa311c3c5442aceff200d65" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -837,7 +837,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "maskedtextbox" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-usage", gist = "b1d08691c1ed74c54f4a045203775504" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-usage" } } },
@@ -855,7 +855,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "menu" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "c411702f31dc03bf4ba17324d1b20cdb" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -878,7 +878,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "multiselect" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "338b9ddfbdfe1bde3f47817818797d96" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -902,7 +902,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "notification" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "221b33b880c62eacdd22a001333e2017" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -921,7 +921,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "numerictextbox" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-usage", gist = "f22b873321e4bf94c32b9ced555e3971" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-usage" } } },
@@ -939,7 +939,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "panelbar" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "9427297a4fe0d32ec6c1dd6d5e98de95" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -959,7 +959,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "pivotgrid" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "ef19b41f12595b6550967a3588f677a0" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -981,7 +981,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "popup" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "d8b8e6650ff3d2604d411273187a89a4" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -997,7 +997,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "progressbar" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "2294b53ecebadbe3ddb72ef787b5b2b0" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1018,7 +1018,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "qrcode" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "4228ea8ae2900dde0d161585f737a9f8" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1035,7 +1035,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "radialgauge" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "1c198a2a4376c1d39e8d3682a152a56c" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1054,7 +1054,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "rangeslider" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "7b1e9faa95abc70758d238d06c254eb1" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1072,7 +1072,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "responsivepanel" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "77a5eb25f93b93aced2c2848a1f77ffc" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1088,7 +1088,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "scheduler" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "0e1011f393130ce281419b1fb85e268c" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1113,7 +1113,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "scrollview" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "7127cdd2f0d4f2799df8a202e82507c1" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1129,7 +1129,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "slider" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "387c43948dc83acf59ea3497472bdfe9" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1147,7 +1147,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "sortable" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "90d5fefd37ee4a406e8078fd93650e02" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1170,7 +1170,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "splitter" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "0f1b37211ebeff0e9b9754239633ae32" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1189,7 +1189,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "spreadsheet" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "662bd7191d5312de5192c4f45516e93c" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1212,7 +1212,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "switch" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "0bf7f350645b621fdd03b034850bfb5d" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1229,7 +1229,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "tabstrip" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "3b593204e96e3de1cc205f1f39a110f0" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1252,7 +1252,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "timepicker" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-usage", gist = "895fcd5e6ebbd939d475641a8a971cde" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-usage" } } },
@@ -1271,7 +1271,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "toolbar" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "fa40f5e95d562ded1a7afbd3ca2af4ef" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1291,7 +1291,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "tooltip" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "64b68d83f2396c1af64c4fc12ed983c9" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1312,7 +1312,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "treeview" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "b997bfa412b068081df4e50eba7b6f8f" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1335,7 +1335,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "treelist" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "0fa38e25bd2f7bdbee06c7d9011176a3" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1365,7 +1365,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "upload" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "2b8ba24ba8d0c232e1dcd1f73ce68ea2" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1386,7 +1386,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "validator" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "4ebce7443e1a6461a8a8d3b1c2c89bfe" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1403,7 +1403,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "valueconverters" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "857165411925e01e9b407ab097d7e958" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },
@@ -1419,7 +1419,7 @@ namespace Carmel.Models
                     DateCreated = DateTime.UtcNow,
                     Name = sampleTag,
                     CreatorName = "@catalogAdmin",
-                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },
+                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "window" } },
                     Samples = new List<Sample>()
                     {
                         new Sample() { Name = "basic-use", gist = "86fcbc2d847ce483f249b55cfa0defa6" , sampleTags = new List<SampleTag>() { new SampleTag { sTag = "basic-use" } } },

@@ -55,7 +55,7 @@ function GenerateSampleHeader(title, componentName) {
   console.log('                    DateCreated = DateTime.UtcNow,');
   console.log('                    Name = sampleTag,');
   console.log('                    CreatorName = "@catalogAdmin",');
-  console.log('                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "Example" } },');
+  console.log('                    ComponentTags = new List<ComponentTag>() { new ComponentTag { cTag = "' + componentName +'" } },');
   console.log('                    Samples = new List<Sample>()');
   console.log('                    {');
 }

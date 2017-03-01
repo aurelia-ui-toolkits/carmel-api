@@ -54,6 +54,7 @@ namespace Carmel.Models
 
             var result = _context.Components         
                 .Include(c => c.Samples)
+                .Include(c => c.ComponentTags)
                 .ToList();
 
             return result;
