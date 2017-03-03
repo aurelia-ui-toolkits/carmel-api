@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Carmel.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Carmel.Controllers.Web
 {
@@ -17,6 +18,12 @@ namespace Carmel.Controllers.Web
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Components()
         {
             var components = _repository.GetAllComponents();
             return View(components);

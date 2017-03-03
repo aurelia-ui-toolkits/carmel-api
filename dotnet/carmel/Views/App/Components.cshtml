@@ -1,0 +1,23 @@
+@model IEnumerable<Carmel.Models.Component>
+
+@{
+    ViewData["Title"] = "Components";
+}
+
+
+<div class="row">
+    <div class="col-md-9 col-md-offset-3">
+        <h2>Bridge Catalog application Editor</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <ul>
+            @foreach (var c in Model)
+            {
+                <li>@c.Name</li>
+            }
+        </ul>
+    </div>
+</div>
