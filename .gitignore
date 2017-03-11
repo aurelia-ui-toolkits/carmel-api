@@ -250,3 +250,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+dotnet/carmel/bootstrap/
+dotnet/carmel/wwwroot/scripts/
