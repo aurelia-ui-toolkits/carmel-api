@@ -29,17 +29,17 @@ namespace Carmel
             var builder = new ConfigurationBuilder()
               .SetBasePath(_env.ContentRootPath)
               .AddJsonFile("config.json")
-			  .AddJsonFile("appsettings.json")
+              .AddJsonFile("appsettings.json")
               .AddEnvironmentVariables();
 
             _config = builder.Build();
         }
 
         public IConfigurationRoot Configuration {
-			get {
-				return _config;
-			}
-		}
+            get {
+                return _config;
+            }
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
