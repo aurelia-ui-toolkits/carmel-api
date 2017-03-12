@@ -2,18 +2,22 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Carmel.Models;
 using Microsoft.Extensions.Logging;
 
 using Newtonsoft.Json.Serialization;
-using AutoMapper;
-using Carmel.ViewModels;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using System.Threading.Tasks;
 using System;
+
+using AutoMapper;
+
+using Carmel.Models;
+using Carmel.ViewModels;
+
+
 
 namespace Carmel
 {
@@ -29,12 +33,12 @@ namespace Carmel
             var builder = new ConfigurationBuilder()
               .SetBasePath(_env.ContentRootPath)
               .AddJsonFile("config.json")
+              .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+              .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
               .AddEnvironmentVariables();
 
             _config = builder.Build();
         }
-
-        public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
@@ -54,17 +58,19 @@ namespace Carmel
 
             services.AddLogging();
 
+            // Add functionality to inject IOptions<T>
+            services.AddOptions();
+
+            // Add the Auth0 Settings object so it can be injected
+            services.Configure<Auth0Settings>(_config.GetSection("Auth0"));
+
             services.AddEntityFrameworkSqlServer().AddDbContext<CatalogContext>();
 
             services.AddTransient<CatalogContextSeedData>();
 
             services.AddScoped<ICatalogRepository, CatalogRepository>();
 
-            // Add functionality to inject IOptions<T>
-            services.AddOptions();
 
-            // Add the Auth0 Settings object so it can be injected
-            services.Configure<Auth0Settings>(Configuration.GetSection("Auth0"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -85,6 +91,9 @@ namespace Carmel
                 AutomaticAuthenticate = true,
                 AutomaticChallenge = true
             });
+
+            var cliendid = auth0Settings.Value.ClientId;
+            var secret = auth0Settings.Value.ClientSecret;
 
             var options = new OpenIdConnectOptions("Auth0")
             {
@@ -156,6 +165,9 @@ namespace Carmel
 
             //
             // This gets called only at server startup and only of the database does not exist
+            // (these test are a part of the CreateSeedData method, which also gets access to the 
+            // CatalogContest reference in the seeder class.
+            //
             seeder.CreateSeedData();
         }
     }
