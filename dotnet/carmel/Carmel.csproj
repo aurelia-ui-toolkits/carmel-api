@@ -10,16 +10,6 @@
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Services\**" />
-    <Content Remove="Services\**" />
-    <EmbeddedResource Remove="Services\**" />
-    <None Remove="Services\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="wwwroot\img\admin1.jpg" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Update="wwwroot\**\*;web.config">
